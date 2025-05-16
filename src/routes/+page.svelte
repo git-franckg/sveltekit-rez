@@ -40,7 +40,7 @@
 					['🌍', 'IP', '::1'],
 					['🖥 ', 'OS', 'Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0'],
 					['🔐', 'Password', '123456'],
-					['🧬', 'ID: #9a77b05efdf2dc1495e7bfc355ee48a5a7899cdf']
+					['🧬', 'ID', '#9a77b05efdf2dc1495e7bfc355ee48a5a7899cdf']
 				]
 			],
 			null,
