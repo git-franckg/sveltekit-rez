@@ -55,6 +55,12 @@
 	Building
 {:then built}
 	<h1>Result:</h1>
+	<section>
+		{#each built.split('\n') as line}
+			<code>{line}</code>
+			<br />
+		{/each}
+	</section>
 	<main>
 		{#each built.split('\n') as line}
 			{#if line}
