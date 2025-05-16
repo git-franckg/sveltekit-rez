@@ -37,6 +37,7 @@ export function fmtRezFull(input: FullInput) {
 
 	return [
 		'<blockquote>' + header.join('\n').trim() + '</blockquote>',
+		'',
 		...groups.map((grp) => buildGroup(grp)),
 		'<blockquote>' + footer.join('\n').trim() + '</blockquote>'
 	]
